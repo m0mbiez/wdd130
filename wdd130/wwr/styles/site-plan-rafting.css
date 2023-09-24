@@ -16,10 +16,10 @@ Fonts are separated by a & */
   --paragraph-font: Raleway, monospace;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: ##ffc677;  /* headlines on a white background */ 
+  --headline-color-on-white: #4f4f4e;  /* headlines on a white background */ 
   --headline-color-on-color: #4f4f4e; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #ffffff; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #4f4f4e; /* paragraph text on a colored background */ 
+  --paragraph-color-on-white: #4f4f4e; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #ffc677; /* paragraph text on a colored background */ 
   --paragraph-background-color: #ffc677  ;
   --nav-link-color: #ffffff;
   --nav-background-color: #4f4f4e;
