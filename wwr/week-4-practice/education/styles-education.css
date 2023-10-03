@@ -1,0 +1,18 @@
+h1,h3{font-family: Arial, Helvetica, sans-serif; font-stretch:narrower; color: rgb(255, 255, 255);}
+
+body, html{
+    margin: 0;
+    height: 100%;
+    background-color:rgb(246, 167, 209)
+    justify-content: center;
+}
+
+.content {
+    width: 1600px;
+    
+}
+
+nav, header, button, section{
+    /* links in the nav need to be centered, not the box itself!
+    headlines, buttons, sections */
+}
