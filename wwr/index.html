@@ -1,5 +1,5 @@
 <!-- HOME PAGE revised
-Validated 100% accuracy 
+Validated 100% accuracy ... 
 -->
 
 
@@ -9,26 +9,31 @@ Validated 100% accuracy
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index-styles.css" 
     <title>Rafting Adventures Co. | Home </title>
 </head>
 
-
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
  
 
-
+<!--week4, step7,8: -->
 <body>
-    <header> <!-- Your main brand/logo image will go here. When the user clicks on it, it will take them home.-->
-        <a id="logo_link" href="index.html">
-            <img class="logo" src="images/wdd130-brand-and-logo-734kb.png" alt="Adventure Rafting Co.">
-        </a>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="#">Page 2</a>
-            <a href="site-plan-rafting.html">Site Plan</a>
-            <a href="contact-us.html">Contact Us</a> <!--it will say "contactus.html". 
-                    Be sure to keep this as the last navigational link-->
-        </nav>
-    </header> 
+    <div id="content"><!-- BLOCK element. Set max width in .css-->
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/wdd130-brand-and-logo-734kb.png" alt="Adventure Rafting Co.">
+            </a>
+            <nav>
+                <a href="index.html" target="_blank">Home</a>
+                <a href="#"target="_blank">Page 2</a>
+                <a href="site-plan-rafting.html" target="_blank">Site Plan</a>
+                <a href="contact-us.html" target="_blank">Contact Us</a> 
+                <!--leave as last navigational link-->
+            </nav>
+        </header> 
+    </div>
+    
     
 
 
@@ -47,15 +52,12 @@ Validated 100% accuracy
                     <h1 class="home-title">Insane Fun</h1>
                     <h4>Get Carried Away With Rafting Adventures </h4>
                     <div class='button-box'>
-                        <a class='book' href="contactus.html">Book Now</a>
+                        <a class='book' href="contactus.html" target="_blank">Book Now</a>
                     </div>
                 </section>
 
             </div>
         
-
-
-
 
 
      <!--Pt 6 - MAIN ELEMENT SECTION / main section provides meat-and-potatoe content - differing between pages: -->
@@ -79,9 +81,21 @@ Validated 100% accuracy
             <img class="icon" src="images/oars.png" alt="oars icon">
             <h2>Rapids</h2>
         </section>
+        <!-- week4: step 11: adding container for message background -->
+        <div id="background"></div>
+        <img class="mountains" src="images/mountains.jpeg" alt="Misty mountains">
+        <section class="msg">
+            <h2>More than just the thrill</h2>
+            <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the great outdoors. </p>
+        </section>
+
+
+
+
+
+
     </main>
     
-
 
 
 
@@ -93,13 +107,13 @@ Validated 100% accuracy
             </p>
             <!--second paragraph-->
             <p>
-                <a href="site-plan-rafting.html">
+                <a href="site-plan-rafting.html" target="_blank">
                     Site Plan
                 </a>
             </p>
             <!--third paragraph-->
             <p>
-                <a href="contact-us.html">Contact Us</a>
+                <a href="contact-us.html" target="_blank">Contact Us</a>
             </p>
 
 
@@ -108,15 +122,15 @@ Validated 100% accuracy
             <!--DIV SOCIAL MEDIA SECTION: -->
             <div class="social">
             <!--first url-->
-                <a href="http://www.facebook.com/">
+                <a href="http://www.facebook.com/" target="_blank">
                     <img src="images/facebook.png" alt="fb icon">
                 </a>
             <!--second url-->
-                <a href="http://www.twitter.com/">
+                <a href="http://www.twitter.com/" target="_blank">
                     <img src="images/twitter.png" alt="twitter icon">
                 </a>
             <!--third url-->
-                <a href="http://www.instagram.com/">
+                <a href="http://www.instagram.com/" target="_blank">
                     <img src="images/instagram.png" alt="ig icon">
                 </a>
             </div>
