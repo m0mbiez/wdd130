@@ -22,7 +22,7 @@ a{
 }
 
 /* this adds [BLUE] BORDERS to all elements */
-* { 
+* { `
     border: 2px solid blue;
 }
 /* centering all elements */
