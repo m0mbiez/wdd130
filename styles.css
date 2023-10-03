@@ -1,6 +1,5 @@
 /* Author: Michelle Sawley
-Date: Oct 3, 2023 
-100% accurate as of Oct 23, 2023! */
+Date: Oct 3, 2023 */
 
 /* week4: step 7,8 */
 /* <div>BLOCK element */
@@ -33,7 +32,7 @@ section{text-align:center
 }
 
 /* week4: step 12: add background colors to the following elements */
-/* [#ffffff]	[#2bc6de]	[#ffc677]	[#4f4f4e] */
+/* [#ffffff]    [#2bc6de]   [#ffc677]   [#4f4f4e] */
 body{
     background-color: #ffffff;
 }
@@ -113,4 +112,3 @@ footer a:hover{background-color: #ffffff;
 footer p a:hover{
 text-decoration: underline;
 }
-/* week4: step 5: ommit underlined links */
