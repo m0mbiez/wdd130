@@ -69,19 +69,19 @@ nav a:hover{
 .join:hover{background-color: #2bc6de;
 }
 #background{
-    background-color:#ffffff ;
+    background-color:#ffc677 ;
     height: 725px;
 }
 .msg{
     background-color:#4f4f4e;
     padding: 35px;
 }
-footer{background-color:#2bc6de;
+footer{background-color:#ffc677;
 }
 
 
 /* week4: step 14: foreground colors */
-nav a{background-color: #2bc6de;
+nav a{background-color: #ffc677;
     color:#ffffff;
     text-decoration: none;
     padding: 35px;
@@ -154,6 +154,9 @@ padding-top: 15px;
 .icon{
     width: 80px; 
     padding-top: 10px;
+}
+.thrill-oar-icon{
+    padding: auto;
 }
 footer p a:hover{
 text-decoration: underline;
