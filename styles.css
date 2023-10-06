@@ -37,7 +37,11 @@ h4 {text-align: center;
 }
 .button-box {text-align: center;
 }
-main {text-align: center;
+main {
+    text-align: center;
+}
+main section img {
+    box-sizing: border-box;
 }
 section{text-align:center
 }
@@ -59,9 +63,9 @@ nav a:hover{
     background-color: #ffc677;
     color: #ffffff;
 }
-.book:hover{
+/* .book:hover{
     background-color: #2bc6de;
-}
+} */
 .join:hover{background-color: #2bc6de;
 }
 #background{
@@ -82,9 +86,11 @@ nav a{background-color: #2bc6de;
     text-decoration: none;
     padding: 35px;
 }
-.home-title{background-color:#ffc677;
+.home-title{
+    background-color:#ffc677;
     color: #ffffff;
     font-size: 2em;
+    margin-top: 10px;
 }
 h4{background-color:#ffffff;
     color: #4f4f4e;
@@ -93,12 +99,16 @@ h4{background-color:#ffffff;
     color: #ffffff;
     font-size: 18px;
     padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join{background-color: #4f4f4e;
     color: #ffffff;
     text-decoration: none;
     font-size: 18px;
     padding: 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{background-color: #4f4f4e;
     color:#ffffff;
@@ -122,12 +132,17 @@ footer{
     font-size: 1.2em;
     padding: 25px 50px;
 }
-footer a{background-color: #2bc6de;
+footer a{
+    background-color: #2bc6de;
     color: #4f4f4e;
     text-decoration: none;
 }
-footer a:hover{background-color: #ffffff;
+footer a:hover{
+    background-color: #ffffff;
     color: #ffffff;
+}
+footer .social-img{
+padding-top: 15px;
 }
 
 /* week4: step 14: add widths */
@@ -142,4 +157,19 @@ footer a:hover{background-color: #ffffff;
 }
 footer p a:hover{
 text-decoration: underline;
+}
+.rivers-card{
+    margin: 200px
+}
+.camping-card{
+    margin: 200px;
+}
+.rapids-card{
+    margin: 200px;
+}
+footer{
+    margin-top: 200px;
+}
+.card-img{
+    border: 10px solid #2bc6de;
 }
